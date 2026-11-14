@@ -32,14 +32,14 @@ LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
 
 STRINGTABLE
 BEGIN
-    IDS_APP_TITLE           "GLPI Agent Monitor"
-    IDS_GLPINOTIFYERROR     "GLPI Agent - Błąd"
-    IDS_GLPINOTIFY          "GLPI Agent"
+    IDS_APP_TITLE           "Abundant Logic Agent Monitor"
+    IDS_GLPINOTIFYERROR     "Abundant Logic Agent - Błąd"
+    IDS_GLPINOTIFY          "Abundant Logic Agent"
     IDS_STATIC_INFO         "Informacje"
     IDS_STATIC_AGENTVER     "Wersja agenta:"
     IDS_STATIC_SERVICESTATUS "Status usługi:"
     IDS_STATIC_STARTTYPE    "Typ uruchomienia:"
-    IDS_ERR_AGENTSETTINGS   "Błąd ładowania ustawień Agenta GLPI!\nNależy ponownie zainstalować Agenta GLPI."
+    IDS_ERR_AGENTSETTINGS   "Błąd ładowania ustawień Agenta Abundant Logic!\nNależy ponownie zainstalować Agenta Abundant Logic."
 END
 
 STRINGTABLE
@@ -64,7 +64,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_ERR_HTTPDPORT       "Błąd odczytu portu HTTP Agenta GLPI!\nNależy ponownie zainstalować agenta."
+    IDS_ERR_HTTPDPORT       "Błąd odczytu portu HTTP Agenta Abundant Logic!\nNależy ponownie zainstalować agenta."
     IDS_SVC_STOPPED         "Zatrzymany"
     IDS_SVC_RUNNING         "Uruchomiony"
     IDS_SVC_PAUSED          "Wstrzymany"
@@ -74,13 +74,13 @@ BEGIN
     IDS_SVC_STOPPENDING     "Zatrzymywanie..."
     IDS_ERR_SERVICE         "Błąd odczytu stanu usługi!"
     IDS_OK                  "OK"
-    IDS_ERROR               "GLPI Agent Monitor - Błąd"
+    IDS_ERROR               "Abundant Logic Agent Monitor - Błąd"
     IDS_ERR_FORCEINV_NORESPONSE 
                             "Błąd wymuszenia inwentaryzacji:\nAgent nie odpowiedział na żądanie."
     IDS_ERR_FORCEINV_NOTALLOWED 
                             "Błąd wymuszenia inwentaryzacji:\nOperacja niedozwolona."
-    IDS_MSG_FORCEINV_OK     "Pomyślnie wysłano żądanie wymuszenia inwentaryzacji do Agenta GLPI."
-    IDS_ERR_AGENTERR        "Agent zgłasza jeden lub więcej błędów!\nSprawdź okno  GLPI Agent Monitor."
+    IDS_MSG_FORCEINV_OK     "Pomyślnie wysłano żądanie wymuszenia inwentaryzacji do Agenta Abundant Logic."
+    IDS_ERR_AGENTERR        "Agent zgłasza jeden lub więcej błędów!\nSprawdź okno  Abundant Logic Agent Monitor."
     IDS_RMENU_OPEN          "Otwórz"
 END
 
@@ -90,9 +90,9 @@ BEGIN
     IDS_RMENU_EXIT          "Wyjście"
     IDS_FILE                "Plik"
     IDS_DIR                 "Folder"
-    IDS_ERR_MAINWINDOW      "Błąd tworzenia głownego okna GLPI Agent Monitor!"
+    IDS_ERR_MAINWINDOW      "Błąd tworzenia głownego okna Abundant Logic Agent Monitor!"
     IDS_RMENU_NEWTICKET     "Nowe zgłoszenie..."
-    IDS_ERR_SERVER          "Błąd odczytuadresu URL serwera GLPI!\nNależy ponownie zainstalować agenta."
+    IDS_ERR_SERVER          "Błąd odczytuadresu URL serwera Abundant Logic!\nNależy ponownie zainstalować agenta."
     IDS_NOTIF_NEWTICKET_TITLE "Wykonano zrzut ekranu"
     IDS_NOTIF_NEWTICKET     "Naciśnij CTRL+V w polu opisu nowego zgłoszenia, aby dołączyć zrzut ekranu do zgłoszenia."
     IDS_NEWTICKET           "Nowe zgłoszenie..."
@@ -107,11 +107,11 @@ END
 STRINGTABLE
 BEGIN
     IDS_ERR_SCHANDLE        "Błąd połączenia z menadżerem sterowania usługami Windows!"
-    IDS_ERR_SVCHANDLE       "Błąd otwierania usługi GLPI Agent!"
-    IDS_ERR_SVCOPERATION    "Błąd podczas próby sterowania usługą GLPI Agent!"
-    IDS_SETTINGS            "Ustawienia GLPI Agent Monitor"
+    IDS_ERR_SVCHANDLE       "Błąd otwierania usługi Abundant Logic Agent!"
+    IDS_ERR_SVCOPERATION    "Błąd podczas próby sterowania usługą Abundant Logic Agent!"
+    IDS_SETTINGS            "Ustawienia Abundant Logic Agent Monitor"
     IDS_SETTINGS_NEWTICKET_URL "Adres URL strony nowego zgłoszenia"
-    IDS_ERR_SAVE_SETTINGS   "Błąd zapisywania ustawień GLPI Agent Monitor!"
+    IDS_ERR_SAVE_SETTINGS   "Błąd zapisywania ustawień Abundant Logic Agent Monitor!"
     IDS_CANCEL              "Anuluj"
     IDS_SAVE                "Zapisz"
     IDS_BTN_SETTINGS        " Ustawienia"
@@ -138,14 +138,14 @@ LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 
 STRINGTABLE
 BEGIN
-    IDS_APP_TITLE           "GLPI Agent Monitor"
-    IDS_GLPINOTIFYERROR     "Agent GLPI - Ошибка"
-    IDS_GLPINOTIFY          "Agent GLPI"
+    IDS_APP_TITLE           "Abundant Logic Agent Monitor"
+    IDS_GLPINOTIFYERROR     "Agent Abundant Logic - Ошибка"
+    IDS_GLPINOTIFY          "Agent Abundant Logic"
     IDS_STATIC_INFO         "Информация"
     IDS_STATIC_AGENTVER     "Версия агента :"
     IDS_STATIC_SERVICESTATUS "Статус службы :"
     IDS_STATIC_STARTTYPE    "Тип запуска :"
-    IDS_ERR_AGENTSETTINGS   "Ошибка загрузки настроек GLPI Agent!\nПереустановите GLPI Agent."
+    IDS_ERR_AGENTSETTINGS   "Ошибка загрузки настроек Abundant Logic Agent!\nПереустановите Abundant Logic Agent."
 END
 
 STRINGTABLE
@@ -170,7 +170,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_ERR_HTTPDPORT       "Ошибка получения HTTP порта GLPI Agent!\nПереустановите GLPI Agent."
+    IDS_ERR_HTTPDPORT       "Ошибка получения HTTP порта Abundant Logic Agent!\nПереустановите Abundant Logic Agent."
     IDS_SVC_STOPPED         "Остановлена"
     IDS_SVC_RUNNING         "Запущена"
     IDS_SVC_PAUSED          "Приостановлен"
@@ -180,12 +180,12 @@ BEGIN
     IDS_SVC_STOPPENDING     "Останавливается..."
     IDS_ERR_SERVICE         "Ошибка запроса к службе!"
     IDS_OK                  "OK"
-    IDS_ERROR               "GLPI Agent Monitor - Ошибка"
+    IDS_ERROR               "Abundant Logic Agent Monitor - Ошибка"
     IDS_ERR_FORCEINV_NORESPONSE "Ошибка инвентаризации:\nАгент не отвечает."
     IDS_ERR_FORCEINV_NOTALLOWED 
                             "Ошибка инвентаризации:\nОперация не разрешена."
-    IDS_MSG_FORCEINV_OK     "Запрос инвентаризации успешно отправлен в GLPI Agent."
-    IDS_ERR_AGENTERR        "У агента одна или несколько ошибок !\nПожалуйста проверьте окно GLPI Agent Monitor."
+    IDS_MSG_FORCEINV_OK     "Запрос инвентаризации успешно отправлен в Abundant Logic Agent."
+    IDS_ERR_AGENTERR        "У агента одна или несколько ошибок !\nПожалуйста проверьте окно Abundant Logic Agent Monitor."
     IDS_RMENU_OPEN          "Открыть"
 END
 
@@ -195,9 +195,9 @@ BEGIN
     IDS_RMENU_EXIT          "Выход"
     IDS_FILE                "Файл"
     IDS_DIR                 "Директория"
-    IDS_ERR_MAINWINDOW      "Ошибка создания главного окна GLPI Agent Monitor!"
+    IDS_ERR_MAINWINDOW      "Ошибка создания главного окна Abundant Logic Agent Monitor!"
     IDS_RMENU_NEWTICKET     "Новая заявка..."
-    IDS_ERR_SERVER          "Ошибка получения URL адреса GLPI сервера!\nПереустановите GLPI Agent."
+    IDS_ERR_SERVER          "Ошибка получения URL адреса Abundant Logic сервера!\nПереустановите Abundant Logic Agent."
     IDS_NOTIF_NEWTICKET_TITLE "Сделан снимок экрана"
     IDS_NOTIF_NEWTICKET     "Нажмите CTRL+V в окне описания новой заявки, чтобы прикрепить его к заявке."
     IDS_NEWTICKET           "Новая заявка..."
@@ -212,11 +212,11 @@ END
 STRINGTABLE
 BEGIN
     IDS_ERR_SCHANDLE        "Ошибка подключения к Диспетчеру управления службами Windows(WSCM)!"
-    IDS_ERR_SVCHANDLE       "Ошибка открытия службы GLPI agent!"
-    IDS_ERR_SVCOPERATION    "Ошибка управления службой GLPI agent!"
-    IDS_SETTINGS            "GLPI Agent Monitor settings"
+    IDS_ERR_SVCHANDLE       "Ошибка открытия службы Abundant Logic agent!"
+    IDS_ERR_SVCOPERATION    "Ошибка управления службой Abundant Logic agent!"
+    IDS_SETTINGS            "Abundant Logic Agent Monitor settings"
     IDS_SETTINGS_NEWTICKET_URL "New ticket page URL"
-    IDS_ERR_SAVE_SETTINGS   "Error saving GLPI Agent Monitor settings!"
+    IDS_ERR_SAVE_SETTINGS   "Error saving Abundant Logic Agent Monitor settings!"
     IDS_CANCEL              "Cancel"
     IDS_SAVE                "Save"
     IDS_BTN_SETTINGS        " Settings"
@@ -239,14 +239,14 @@ LANGUAGE LANG_UKRAINIAN, SUBLANG_DEFAULT
 
 STRINGTABLE
 BEGIN
-    IDS_APP_TITLE           "GLPI Agent Monitor"
-    IDS_GLPINOTIFYERROR     "Агент GLPI - Помилка"
-    IDS_GLPINOTIFY          "Агент GLPI"
+    IDS_APP_TITLE           "Abundant Logic Agent Monitor"
+    IDS_GLPINOTIFYERROR     "Агент Abundant Logic - Помилка"
+    IDS_GLPINOTIFY          "Агент Abundant Logic"
     IDS_STATIC_INFO         "Інформація"
     IDS_STATIC_AGENTVER     "Версія агента :"
     IDS_STATIC_SERVICESTATUS "Стан служби :"
     IDS_STATIC_STARTTYPE    "Тип запуску :"
-    IDS_ERR_AGENTSETTINGS   "Помилка завантаження налаштувань GLPI Agent!\nПеревстановіть GLPI Agent."
+    IDS_ERR_AGENTSETTINGS   "Помилка завантаження налаштувань Abundant Logic Agent!\nПеревстановіть Abundant Logic Agent."
 END
 
 STRINGTABLE
@@ -271,7 +271,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_ERR_HTTPDPORT       "Помилка отримання HTTP-порту GLPI Agent!\nПеревстановіть GLPI Agent."
+    IDS_ERR_HTTPDPORT       "Помилка отримання HTTP-порту Abundant Logic Agent!\nПеревстановіть Abundant Logic Agent."
     IDS_SVC_STOPPED         "Зупинено"
     IDS_SVC_RUNNING         "Запущено"
     IDS_SVC_PAUSED          "Призупинено"
@@ -281,12 +281,12 @@ BEGIN
     IDS_SVC_STOPPENDING     "Зупиняється..."
     IDS_ERR_SERVICE         "Помилка запиту до служби!"
     IDS_OK                  "OK"
-    IDS_ERROR               "GLPI Agent Monitor - Помилка"
+    IDS_ERROR               "Abundant Logic Agent Monitor - Помилка"
     IDS_ERR_FORCEINV_NORESPONSE "Помилка інвентаризації:\nАгент не відповідає."
     IDS_ERR_FORCEINV_NOTALLOWED 
                             "Помилка інвентаризації:\nОперацію не дозволено."
-    IDS_MSG_FORCEINV_OK     "Запит на інвентаризацію успішно надіслано до GLPI Agent."
-    IDS_ERR_AGENTERR        "Агент має одну або декілька помилок!\nПеревірте вікно GLPI Agent Monitor."
+    IDS_MSG_FORCEINV_OK     "Запит на інвентаризацію успішно надіслано до Abundant Logic Agent."
+    IDS_ERR_AGENTERR        "Агент має одну або декілька помилок!\nПеревірте вікно Abundant Logic Agent Monitor."
     IDS_RMENU_OPEN          "Відкрити"
 END
 
@@ -296,9 +296,9 @@ BEGIN
     IDS_RMENU_EXIT          "Вихід"
     IDS_FILE                "Файл"
     IDS_DIR                 "Каталог"
-    IDS_ERR_MAINWINDOW      "Помилка створення головного вікна GLPI Agent Monitor!"
+    IDS_ERR_MAINWINDOW      "Помилка створення головного вікна Abundant Logic Agent Monitor!"
     IDS_RMENU_NEWTICKET     "Нова заявка..."
-    IDS_ERR_SERVER          "Помилка отримання URL-адреси сервера GLPI!\nПеревстановіть GLPI Agent."
+    IDS_ERR_SERVER          "Помилка отримання URL-адреси сервера Abundant Logic!\nПеревстановіть Abundant Logic Agent."
     IDS_NOTIF_NEWTICKET_TITLE "Знімок екрана зроблено"
     IDS_NOTIF_NEWTICKET     "Натисніть CTRL+V у вікні опису нової заявки, щоб прикріпити його до заявки."
     IDS_NEWTICKET           "Нова заявка..."
@@ -313,11 +313,11 @@ END
 STRINGTABLE
 BEGIN
     IDS_ERR_SCHANDLE        "Помилка підключення до Диспетчера керування службами Windows (SCM)!"
-    IDS_ERR_SVCHANDLE       "Помилка відкриття служби GLPI Agent!"
-    IDS_ERR_SVCOPERATION    "Помилка керування службою GLPI Agent!"
-    IDS_SETTINGS            "Налаштування GLPI Agent Monitor"
+    IDS_ERR_SVCHANDLE       "Помилка відкриття служби Abundant Logic Agent!"
+    IDS_ERR_SVCOPERATION    "Помилка керування службою Abundant Logic Agent!"
+    IDS_SETTINGS            "Налаштування Abundant Logic Agent Monitor"
     IDS_SETTINGS_NEWTICKET_URL "URL сторінки нової заявки"
-    IDS_ERR_SAVE_SETTINGS   "Помилка збереження налаштувань GLPI Agent Monitor!"
+    IDS_ERR_SAVE_SETTINGS   "Помилка збереження налаштувань Abundant Logic Agent Monitor!"
     IDS_CANCEL              "Скасувати"
     IDS_SAVE                "Зберегти"
     IDS_BTN_SETTINGS        " Налаштування"
@@ -341,14 +341,14 @@ LANGUAGE LANG_SPANISH, SUBLANG_NEUTRAL
 
 STRINGTABLE
 BEGIN
-    IDS_APP_TITLE           "GLPI Agent Monitor"
-    IDS_GLPINOTIFYERROR     "GLPI Agent - Error"
-    IDS_GLPINOTIFY          "GLPI Agent"
+    IDS_APP_TITLE           "Abundant Logic Agent Monitor"
+    IDS_GLPINOTIFYERROR     "Abundant Logic Agent - Error"
+    IDS_GLPINOTIFY          "Abundant Logic Agent"
     IDS_STATIC_INFO         "Información"
     IDS_STATIC_AGENTVER     "Versión del agente:"
     IDS_STATIC_SERVICESTATUS "Estado del servicio:"
     IDS_STATIC_STARTTYPE    "Tipo de inicio:"
-    IDS_ERR_AGENTSETTINGS   "Error al cargar la configuración del agente de GLPI\nDeberá reinstalar el agente."
+    IDS_ERR_AGENTSETTINGS   "Error al cargar la configuración del agente de Abundant Logic\nDeberá reinstalar el agente."
 END
 
 STRINGTABLE
@@ -383,13 +383,13 @@ BEGIN
     IDS_SVC_STOPPENDING     "Deteniendo..."
     IDS_ERR_SERVICE         "Error en consulta del servicio"
     IDS_OK                  "OK"
-    IDS_ERROR               "GLPI Agent Monitor - Error"
+    IDS_ERROR               "Abundant Logic Agent Monitor - Error"
     IDS_ERR_FORCEINV_NORESPONSE 
                             "Error al forzar inventario:\nEl agente no respondió a la solicitud."
     IDS_ERR_FORCEINV_NOTALLOWED 
                             "Error al forzar inventario:\nOperación no permitida."
     IDS_MSG_FORCEINV_OK     "Solicitud de registro forzado enviada correctamente."
-    IDS_ERR_AGENTERR        "El agente presentó uno o más errores\nPor favor verifique la ventana de GLPI Agent Monitor."
+    IDS_ERR_AGENTERR        "El agente presentó uno o más errores\nPor favor verifique la ventana de Abundant Logic Agent Monitor."
     IDS_RMENU_OPEN          "Abrir"
 END
 
@@ -399,9 +399,9 @@ BEGIN
     IDS_RMENU_EXIT          "Salir"
     IDS_FILE                "Archivo"
     IDS_DIR                 "Directorio"
-    IDS_ERR_MAINWINDOW      "Error al crear la ventana principal de GLPI Agent Monitor"
+    IDS_ERR_MAINWINDOW      "Error al crear la ventana principal de Abundant Logic Agent Monitor"
     IDS_RMENU_NEWTICKET     "Crear Ticket..."
-    IDS_ERR_SERVER          "Error al obtener la URL del servidor de GLPI\nDeberá reinstalar el agente."
+    IDS_ERR_SERVER          "Error al obtener la URL del servidor de Abundant Logic\nDeberá reinstalar el agente."
     IDS_NOTIF_NEWTICKET_TITLE "Se tomó captura de pantalla"
     IDS_NOTIF_NEWTICKET     "Presionar CTRL+V en la ventana de nuevo ticket, o adjuntar la captura como archivo en el formulario."
     IDS_NEWTICKET           "Crear ticket..."
@@ -416,11 +416,11 @@ END
 STRINGTABLE
 BEGIN
     IDS_ERR_SCHANDLE        "Error al conectar al Administrador de Servicios de Windows!"
-    IDS_ERR_SVCHANDLE       "Error al abrir el servicio de GLPI Agent"
-    IDS_ERR_SVCOPERATION    "Error al tomar el control del servicio de GLPI Agent"
-    IDS_SETTINGS            "Configuración de GLPI Agent Monitor"
+    IDS_ERR_SVCHANDLE       "Error al abrir el servicio de Abundant Logic Agent"
+    IDS_ERR_SVCOPERATION    "Error al tomar el control del servicio de Abundant Logic Agent"
+    IDS_SETTINGS            "Configuración de Abundant Logic Agent Monitor"
     IDS_SETTINGS_NEWTICKET_URL "URL de la página de Crear ticket"
-    IDS_ERR_SAVE_SETTINGS   "Error guardando la configuración de GLPI Agent Monitor!"
+    IDS_ERR_SAVE_SETTINGS   "Error guardando la configuración de Abundant Logic Agent Monitor!"
     IDS_CANCEL              "Cancelar"
     IDS_SAVE                "Guardar"
     IDS_BTN_SETTINGS        " Configuración"
@@ -447,9 +447,9 @@ LANGUAGE LANG_CATALAN, SUBLANG_DEFAULT
 
 STRINGTABLE
 BEGIN
-    IDS_APP_TITLE           "GLPI Agent Monitor"
-    IDS_GLPINOTIFYERROR     "GLPI Agent - Error"
-    IDS_GLPINOTIFY          "GLPI Agent"
+    IDS_APP_TITLE           "Abundant Logic Agent Monitor"
+    IDS_GLPINOTIFYERROR     "Abundant Logic Agent - Error"
+    IDS_GLPINOTIFY          "Abundant Logic Agent"
     IDS_STATIC_INFO         "Info"
     IDS_STATIC_AGENTVER     "Versió de l'Agent:"
     IDS_STATIC_SERVICESTATUS "Estat del servei:"
@@ -489,7 +489,7 @@ BEGIN
     IDS_SVC_STOPPENDING     "Aturant-se..."
     IDS_ERR_SERVICE         "Obtenció del servei fallada!"
     IDS_OK                  "OK"
-    IDS_ERROR               "GLPI Agent Monitor - Error"
+    IDS_ERROR               "Abundant Logic Agent Monitor - Error"
     IDS_ERR_FORCEINV_NORESPONSE 
                             "Hi ha hagut un error forçant l'Inventari:\nL'Agent no ha respost a l'ordre."
     IDS_ERR_FORCEINV_NOTALLOWED 
@@ -505,7 +505,7 @@ BEGIN
     IDS_RMENU_EXIT          "Sortir"
     IDS_FILE                "Fitxer"
     IDS_DIR                 "Directori"
-    IDS_ERR_MAINWINDOW      "Error creant la finestra principal del GLPI Agent Monitor."
+    IDS_ERR_MAINWINDOW      "Error creant la finestra principal del Abundant Logic Agent Monitor."
     IDS_RMENU_NEWTICKET     "Obrir tiquet"
     IDS_ERR_SERVER          "Hi ha hagut un error obtenint l'URL!\nS'ha de reinstal·lar l'Agent."
     IDS_NOTIF_NEWTICKET_TITLE "S'ha fet una captura de pantalla"
@@ -522,11 +522,11 @@ END
 STRINGTABLE
 BEGIN
     IDS_ERR_SCHANDLE        "Hi ha hagut un error connectant amb el Windows Service Control Manager!"
-    IDS_ERR_SVCHANDLE       "Hi ha hagut un error obrint el servei del GLPI Agent!"
-    IDS_ERR_SVCOPERATION    "Hi ha hagut un error intentnat controlar el servei del GLPI Agent!"
-    IDS_SETTINGS            "Configuració del GLPI Agent Monitor"
+    IDS_ERR_SVCHANDLE       "Hi ha hagut un error obrint el servei del Abundant Logic Agent!"
+    IDS_ERR_SVCOPERATION    "Hi ha hagut un error intentnat controlar el servei del Abundant Logic Agent!"
+    IDS_SETTINGS            "Configuració del Abundant Logic Agent Monitor"
     IDS_SETTINGS_NEWTICKET_URL "URL de la pàgina de Nou Tiquet"
-    IDS_ERR_SAVE_SETTINGS   "Hi ha hagut un error guardant la configuració del GLPI Agent Monitor!"
+    IDS_ERR_SAVE_SETTINGS   "Hi ha hagut un error guardant la configuració del Abundant Logic Agent Monitor!"
     IDS_CANCEL              "Cancelar"
     IDS_SAVE                "Guardar"
     IDS_BTN_SETTINGS        " Configuració"
@@ -553,14 +553,14 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 
 STRINGTABLE
 BEGIN
-    IDS_APP_TITLE           "GLPI Agent Monitor"
-    IDS_GLPINOTIFYERROR     "GLPI Agent - Error"
-    IDS_GLPINOTIFY          "GLPI Agent"
+    IDS_APP_TITLE           "Abundant Logic Agent Monitor"
+    IDS_GLPINOTIFYERROR     "Abundant Logic Agent - Error"
+    IDS_GLPINOTIFY          "Abundant Logic Agent"
     IDS_STATIC_INFO         "Info"
     IDS_STATIC_AGENTVER     "Agent version:"
     IDS_STATIC_SERVICESTATUS "Service status:"
     IDS_STATIC_STARTTYPE    "Startup type:"
-    IDS_ERR_AGENTSETTINGS   "Error loading GLPI Agent settings!\nThe agent must be reinstalled."
+    IDS_ERR_AGENTSETTINGS   "Error loading Abundant Logic Agent settings!\nThe agent must be reinstalled."
 END
 
 STRINGTABLE
@@ -585,7 +585,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_ERR_HTTPDPORT       "Error getting GLPI Agent HTTP port!\nThe agent must be reinstalled."
+    IDS_ERR_HTTPDPORT       "Error getting Abundant Logic Agent HTTP port!\nThe agent must be reinstalled."
     IDS_SVC_STOPPED         "Stopped"
     IDS_SVC_RUNNING         "Running"
     IDS_SVC_PAUSED          "Paused"
@@ -595,13 +595,13 @@ BEGIN
     IDS_SVC_STOPPENDING     "Stopping..."
     IDS_ERR_SERVICE         "Service query failure!"
     IDS_OK                  "OK"
-    IDS_ERROR               "GLPI Agent Monitor - Error"
+    IDS_ERROR               "Abundant Logic Agent Monitor - Error"
     IDS_ERR_FORCEINV_NORESPONSE 
                             "Force inventory error:\nThe agent did not respond to the request."
     IDS_ERR_FORCEINV_NOTALLOWED 
                             "Force inventory error:\nOperation not allowed."
-    IDS_MSG_FORCEINV_OK     "Force inventory request successfully sent to GLPI Agent."
-    IDS_ERR_AGENTERR        "The agent has one or more errors!\nPlease check the GLPI Agent Monitor window."
+    IDS_MSG_FORCEINV_OK     "Force inventory request successfully sent to Abundant Logic Agent."
+    IDS_ERR_AGENTERR        "The agent has one or more errors!\nPlease check the Abundant Logic Agent Monitor window."
     IDS_RMENU_OPEN          "Open"
 END
 
@@ -611,9 +611,9 @@ BEGIN
     IDS_RMENU_EXIT          "Exit"
     IDS_FILE                "File"
     IDS_DIR                 "Directory"
-    IDS_ERR_MAINWINDOW      "Error creating GLPI Agent Monitor main window!"
+    IDS_ERR_MAINWINDOW      "Error creating Abundant Logic Agent Monitor main window!"
     IDS_RMENU_NEWTICKET     "New ticket..."
-    IDS_ERR_SERVER          "Error getting GLPI server URL!\nThe agent must be reinstalled."
+    IDS_ERR_SERVER          "Error getting Abundant Logic server URL!\nThe agent must be reinstalled."
     IDS_NOTIF_NEWTICKET_TITLE "A screen capture was taken"
     IDS_NOTIF_NEWTICKET     "Press CTRL+V in the new ticket description panel to attach it to the ticket."
     IDS_NEWTICKET           "New ticket..."
@@ -628,11 +628,11 @@ END
 STRINGTABLE
 BEGIN
     IDS_ERR_SCHANDLE        "Error connecting to the Windows Service Control Manager!"
-    IDS_ERR_SVCHANDLE       "Error opening the GLPI Agent service!"
-    IDS_ERR_SVCOPERATION    "Error trying to control the GLPI Agent service!"
-    IDS_SETTINGS            "GLPI Agent Monitor settings"
+    IDS_ERR_SVCHANDLE       "Error opening the Abundant Logic Agent service!"
+    IDS_ERR_SVCOPERATION    "Error trying to control the Abundant Logic Agent service!"
+    IDS_SETTINGS            "Abundant Logic Agent Monitor settings"
     IDS_SETTINGS_NEWTICKET_URL "New ticket page URL"
-    IDS_ERR_SAVE_SETTINGS   "Error saving GLPI Agent Monitor settings!"
+    IDS_ERR_SAVE_SETTINGS   "Error saving Abundant Logic Agent Monitor settings!"
     IDS_CANCEL              "Cancel"
     IDS_SAVE                "Save"
     IDS_BTN_SETTINGS        " Settings"
@@ -659,14 +659,14 @@ LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
 
 STRINGTABLE
 BEGIN
-    IDS_APP_TITLE           "GLPI Agent Monitor"
-    IDS_GLPINOTIFYERROR     "Agent GLPI - Erreur"
-    IDS_GLPINOTIFY          "Agent GLPI"
+    IDS_APP_TITLE           "Abundant Logic Agent Monitor"
+    IDS_GLPINOTIFYERROR     "Agent Abundant Logic - Erreur"
+    IDS_GLPINOTIFY          "Agent Abundant Logic"
     IDS_STATIC_INFO         "Information"
     IDS_STATIC_AGENTVER     "Version de l'agent :"
     IDS_STATIC_SERVICESTATUS "Statut du service :"
     IDS_STATIC_STARTTYPE    "Type de démarrage :"
-    IDS_ERR_AGENTSETTINGS   "Erreur de chargement des paramètres de l'agent GLPI!\nL'agent doit être ré-installé."
+    IDS_ERR_AGENTSETTINGS   "Erreur de chargement des paramètres de l'agent Abundant Logic!\nL'agent doit être ré-installé."
 END
 
 STRINGTABLE
@@ -691,7 +691,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_ERR_HTTPDPORT       "Erreur de récupération du port HTTP de l'agent GLPI !\nL'agent doit être ré-installé."
+    IDS_ERR_HTTPDPORT       "Erreur de récupération du port HTTP de l'agent Abundant Logic !\nL'agent doit être ré-installé."
     IDS_SVC_STOPPED         "Arrêté"
     IDS_SVC_RUNNING         "Démarré"
     IDS_SVC_PAUSED          "En pause"
@@ -701,13 +701,13 @@ BEGIN
     IDS_SVC_STOPPENDING     "Arrêt en cours..."
     IDS_ERR_SERVICE         "Échec d'accès au service !"
     IDS_OK                  "OK"
-    IDS_ERROR               "GLPI Agent Monitor - Erreur"
+    IDS_ERROR               "Abundant Logic Agent Monitor - Erreur"
     IDS_ERR_FORCEINV_NORESPONSE 
                             "Erreur de forçage de l'inventaire :\nL'agent n'a pas donné de réponse."
     IDS_ERR_FORCEINV_NOTALLOWED 
                             "Erreur de forçage de l'inventaire :\nAction non autorisée."
-    IDS_MSG_FORCEINV_OK     "La requête de forçage de l'inventaire a été envoyée avec succès à l'agent GLPI."
-    IDS_ERR_AGENTERR        "L'agent a une ou plusieurs erreurs !\nVous devriez vérifier la fenêtre de GLPI Agent Monitor."
+    IDS_MSG_FORCEINV_OK     "La requête de forçage de l'inventaire a été envoyée avec succès à l'agent Abundant Logic."
+    IDS_ERR_AGENTERR        "L'agent a une ou plusieurs erreurs !\nVous devriez vérifier la fenêtre de Abundant Logic Agent Monitor."
     IDS_RMENU_OPEN          "Ouvrir"
 END
 
@@ -717,9 +717,9 @@ BEGIN
     IDS_RMENU_EXIT          "Quitter"
     IDS_FILE                "Fichier"
     IDS_DIR                 "Dossier"
-    IDS_ERR_MAINWINDOW      "Erreur de création de la fenêtre principale de GLPI Agent Monitor !"
+    IDS_ERR_MAINWINDOW      "Erreur de création de la fenêtre principale de Abundant Logic Agent Monitor !"
     IDS_RMENU_NEWTICKET     "Nouveau ticket..."
-    IDS_ERR_SERVER          "Erreur de récupération de l'URL du serveur GLPI !\nL'agent doit être ré-installé."
+    IDS_ERR_SERVER          "Erreur de récupération de l'URL du serveur Abundant Logic !\nL'agent doit être ré-installé."
     IDS_NOTIF_NEWTICKET_TITLE "Une capture d'écran a été prise"
     IDS_NOTIF_NEWTICKET     "Appuyez sur CTRL+V dans le cadre de la description du nouveau ticket pour l'inclure au ticket."
     IDS_NEWTICKET           "Nouveau ticket..."
@@ -734,11 +734,11 @@ END
 STRINGTABLE
 BEGIN
     IDS_ERR_SCHANDLE        "Erreur de connexion au gestionnaire de contrôle Windows Service !"
-    IDS_ERR_SVCHANDLE       "Erreur d'ouverture du service de l'agent GLPI !"
-    IDS_ERR_SVCOPERATION    "Erreur en tentant de gérer le service de l'agent GLPI !"
-    IDS_SETTINGS            "Paramètres de GLPI Agent Monitor"
+    IDS_ERR_SVCHANDLE       "Erreur d'ouverture du service de l'agent Abundant Logic !"
+    IDS_ERR_SVCOPERATION    "Erreur en tentant de gérer le service de l'agent Abundant Logic !"
+    IDS_SETTINGS            "Paramètres de Abundant Logic Agent Monitor"
     IDS_SETTINGS_NEWTICKET_URL "URL de nouveau ticket"
-    IDS_ERR_SAVE_SETTINGS   "Erreur durant l'enregistrement des paramètres de GLPI Agent Monitor !"
+    IDS_ERR_SAVE_SETTINGS   "Erreur durant l'enregistrement des paramètres de Abundant Logic Agent Monitor !"
     IDS_CANCEL              "Annuler"
     IDS_SAVE                "Enregistrer"
     IDS_BTN_SETTINGS        " Paramètres"
@@ -765,14 +765,14 @@ LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
 
 STRINGTABLE
 BEGIN
-    IDS_APP_TITLE           "GLPI Agent Monitor"
-    IDS_GLPINOTIFYERROR     "GLPI Agent - Error"
-    IDS_GLPINOTIFY          "Agente GLPI"
+    IDS_APP_TITLE           "Abundant Logic Agent Monitor"
+    IDS_GLPINOTIFYERROR     "Abundant Logic Agent - Error"
+    IDS_GLPINOTIFY          "Agente Abundant Logic"
     IDS_STATIC_INFO         "Informazioni"
     IDS_STATIC_AGENTVER     "Versione Agent:"
     IDS_STATIC_SERVICESTATUS "Stato del servizio:"
     IDS_STATIC_STARTTYPE    "Tipo di avvio:"
-    IDS_ERR_AGENTSETTINGS   "Errore nel caricamento dei settaggi dell'Agente GLPI!\nL'agente deve essere reinstallato."
+    IDS_ERR_AGENTSETTINGS   "Errore nel caricamento dei settaggi dell'Agente Abundant Logic!\nL'agente deve essere reinstallato."
 END
 
 STRINGTABLE
@@ -797,7 +797,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_ERR_HTTPDPORT       "Errore nel verificare la porta HTTP dell'Agente GLPI!\nL'agente deve essere reinstallato."
+    IDS_ERR_HTTPDPORT       "Errore nel verificare la porta HTTP dell'Agente Abundant Logic!\nL'agente deve essere reinstallato."
     IDS_SVC_STOPPED         "Fermato"
     IDS_SVC_RUNNING         "Avviato"
     IDS_SVC_PAUSED          "In Pausa"
@@ -807,13 +807,13 @@ BEGIN
     IDS_SVC_STOPPENDING     "Fermando..."
     IDS_ERR_SERVICE         "Query al servizio fallita!"
     IDS_OK                  "OK"
-    IDS_ERROR               "GLPI Agent Monitor - Errore"
+    IDS_ERROR               "Abundant Logic Agent Monitor - Errore"
     IDS_ERR_FORCEINV_NORESPONSE 
                             "Errore inventario forzato:\nL'agente non risponde alla richiesta."
     IDS_ERR_FORCEINV_NOTALLOWED 
                             "Errore inventario forzato:\nOperazione non permessa."
-    IDS_MSG_FORCEINV_OK     "La richiesta d'inventario forzato è stata inviata correttamente all'agente GLPI."
-    IDS_ERR_AGENTERR        "L'agente ha uno o più errori!\nPer favore controlla la finestra del GLPI Agent Monitor."
+    IDS_MSG_FORCEINV_OK     "La richiesta d'inventario forzato è stata inviata correttamente all'agente Abundant Logic."
+    IDS_ERR_AGENTERR        "L'agente ha uno o più errori!\nPer favore controlla la finestra del Abundant Logic Agent Monitor."
     IDS_RMENU_OPEN          "Apri"
 END
 
@@ -823,9 +823,9 @@ BEGIN
     IDS_RMENU_EXIT          "Esci"
     IDS_FILE                "File"
     IDS_DIR                 "Cartella"
-    IDS_ERR_MAINWINDOW      "Errore nella creazione della finestra principale del GLPI Agent Monitor!"
+    IDS_ERR_MAINWINDOW      "Errore nella creazione della finestra principale del Abundant Logic Agent Monitor!"
     IDS_RMENU_NEWTICKET     "Nuovo ticket..."
-    IDS_ERR_SERVER          "Errore nel recuperare l'URL del GLPI server!\nL'agente deve essere reinstallato."
+    IDS_ERR_SERVER          "Errore nel recuperare l'URL del Abundant Logic server!\nL'agente deve essere reinstallato."
     IDS_NOTIF_NEWTICKET_TITLE "E' stato salvato uno screenshot"
     IDS_NOTIF_NEWTICKET     "Premi CTRL+V nel campo descrizione del nuovo ticket per allegarlo."
     IDS_NEWTICKET           "Nuovo ticket..."
@@ -840,11 +840,11 @@ END
 STRINGTABLE
 BEGIN
     IDS_ERR_SCHANDLE        "Errore nella connessione al Windows Service Control Manager!"
-    IDS_ERR_SVCHANDLE       "Errore nell'apertura del servizio GLPI Agent!"
-    IDS_ERR_SVCOPERATION    "Errore provando a controllare il servizio GLPI Agent!"
-    IDS_SETTINGS            "Impostazioni GLPI Agent Monitor"
+    IDS_ERR_SVCHANDLE       "Errore nell'apertura del servizio Abundant Logic Agent!"
+    IDS_ERR_SVCOPERATION    "Errore provando a controllare il servizio Abundant Logic Agent!"
+    IDS_SETTINGS            "Impostazioni Abundant Logic Agent Monitor"
     IDS_SETTINGS_NEWTICKET_URL "URL pagina Nuovo ticket"
-    IDS_ERR_SAVE_SETTINGS   "Errore salvando le impostazioni di GLPI Agent Monitor!"
+    IDS_ERR_SAVE_SETTINGS   "Errore salvando le impostazioni di Abundant Logic Agent Monitor!"
     IDS_CANCEL              "Annulla"
     IDS_SAVE                "Salva"
     IDS_BTN_SETTINGS        " Impostazioni"
@@ -868,14 +868,14 @@ LANGUAGE LANG_DUTCH, SUBLANG_DUTCH
 
 STRINGTABLE
 BEGIN
-    IDS_APP_TITLE           "GLPI Agent Monitor"
-    IDS_GLPINOTIFYERROR     "GLPI Agent - Fout"
-    IDS_GLPINOTIFY          "GLPI Agent"
+    IDS_APP_TITLE           "Abundant Logic Agent Monitor"
+    IDS_GLPINOTIFYERROR     "Abundant Logic Agent - Fout"
+    IDS_GLPINOTIFY          "Abundant Logic Agent"
     IDS_STATIC_INFO         "Info"
     IDS_STATIC_AGENTVER     "Agent versie:"
     IDS_STATIC_SERVICESTATUS "Service status:"
     IDS_STATIC_STARTTYPE    "Opstart type:"
-    IDS_ERR_AGENTSETTINGS   "GLPI Agent instellingen kon niet worden geladen!\nHerinstalleer de GLPI Agent."
+    IDS_ERR_AGENTSETTINGS   "Abundant Logic Agent instellingen kon niet worden geladen!\nHerinstalleer de Abundant Logic Agent."
 END
 
 STRINGTABLE
@@ -900,7 +900,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_ERR_HTTPDPORT       "Fout bij het ophalen van de GLPI Agent HTTP-poort!\nHerinstalleer de GLPI Agent."
+    IDS_ERR_HTTPDPORT       "Fout bij het ophalen van de Abundant Logic Agent HTTP-poort!\nHerinstalleer de Abundant Logic Agent."
     IDS_SVC_STOPPED         "Gestopt"
     IDS_SVC_RUNNING         "Actief"
     IDS_SVC_PAUSED          "Gepauzeerd"
@@ -910,13 +910,13 @@ BEGIN
     IDS_SVC_STOPPENDING     "Word gestopt..."
     IDS_ERR_SERVICE         "Service query fout!"
     IDS_OK                  "OK"
-    IDS_ERROR               "GLPI Agent Monitor - Fout"
+    IDS_ERROR               "Abundant Logic Agent Monitor - Fout"
     IDS_ERR_FORCEINV_NORESPONSE 
                             "Forceer Inventory error:\nDe agent reageerde niet op het verzoek."
     IDS_ERR_FORCEINV_NOTALLOWED 
                             "Forceer Inventory error:\nBewerking niet toegestaan."
-    IDS_MSG_FORCEINV_OK     "Force Inventory verzoek succesvol verzonden naar GLPI Agent."
-    IDS_ERR_AGENTERR        "De Agent heeft een of meer fouten!\nControleer het GLPI Agent Monitor-venster."
+    IDS_MSG_FORCEINV_OK     "Force Inventory verzoek succesvol verzonden naar Abundant Logic Agent."
+    IDS_ERR_AGENTERR        "De Agent heeft een of meer fouten!\nControleer het Abundant Logic Agent Monitor-venster."
     IDS_RMENU_OPEN          "Openen"
 END
 
@@ -926,9 +926,9 @@ BEGIN
     IDS_RMENU_EXIT          "Sluiten"
     IDS_FILE                "Bestand"
     IDS_DIR                 "Folder"
-    IDS_ERR_MAINWINDOW      "Fout bij het maken van het hoofdvenster van GLPI Agent Monitor!"
+    IDS_ERR_MAINWINDOW      "Fout bij het maken van het hoofdvenster van Abundant Logic Agent Monitor!"
     IDS_RMENU_NEWTICKET     "Nieuwe ticket..."
-    IDS_ERR_SERVER          "Fout bij ophalen van GLPI-server-URL!\nHerinstalleer de GLPI Agent."
+    IDS_ERR_SERVER          "Fout bij ophalen van Abundant Logic-server-URL!\nHerinstalleer de Abundant Logic Agent."
     IDS_NOTIF_NEWTICKET_TITLE "Er is een schermopname gemaakt"
     IDS_NOTIF_NEWTICKET     "Druk op CTRL+V in het nieuwe beschrijvings veld om het aan het ticket te koppelen."
     IDS_NEWTICKET           "Nieuwe ticket..."
@@ -943,11 +943,11 @@ END
 STRINGTABLE
 BEGIN
     IDS_ERR_SCHANDLE        "Fout bij het verbinden met Windows Service Control Manager!"
-    IDS_ERR_SVCHANDLE       "Fout bij het openen van de GLPI Agent-service!"
-    IDS_ERR_SVCOPERATION    "Fout bij het controleren van de GLPI Agent-service!"
-    IDS_SETTINGS            "GLPI Agent Monitor instellingen"
+    IDS_ERR_SVCHANDLE       "Fout bij het openen van de Abundant Logic Agent-service!"
+    IDS_ERR_SVCOPERATION    "Fout bij het controleren van de Abundant Logic Agent-service!"
+    IDS_SETTINGS            "Abundant Logic Agent Monitor instellingen"
     IDS_SETTINGS_NEWTICKET_URL "Nieuwe ticketpagina-URL"
-    IDS_ERR_SAVE_SETTINGS   "Fout bij opslaan van GLPI Agent Monitor-instellingen!"
+    IDS_ERR_SAVE_SETTINGS   "Fout bij opslaan van Abundant Logic Agent Monitor-instellingen!"
     IDS_CANCEL              "Annuleren"
     IDS_SAVE                "Opslaan"
     IDS_BTN_SETTINGS        " Instellingen"
@@ -1018,7 +1018,7 @@ END
 
 3 TEXTINCLUDE 
 BEGIN
-    "#include ""GLPI-AgentMonitor.rc2""\r\n"
+    "#include ""Abundant Logic-AgentMonitor.rc2""\r\n"
     "\0"
 END
 
@@ -1077,7 +1077,7 @@ END
 
 IDR_RMENU MENU
 BEGIN
-    POPUP "GLPI Agent"
+    POPUP "Abundant Logic Agent"
     BEGIN
         MENUITEM "IDS_RMENU_OPEN",              ID_RMENU_OPEN
         MENUITEM "IDS_RMENU_FORCE",             ID_RMENU_FORCE
@@ -1118,14 +1118,14 @@ IDB_LOGO                PNG                     "Resources\\glpilogo.png"
 
 STRINGTABLE
 BEGIN
-    IDS_APP_TITLE           "GLPI Agent Monitor"
-    IDS_GLPINOTIFYERROR     "GLPI Agent - Erro"
-    IDS_GLPINOTIFY          "GLPI Agent"
+    IDS_APP_TITLE           "Abundant Logic Agent Monitor"
+    IDS_GLPINOTIFYERROR     "Abundant Logic Agent - Erro"
+    IDS_GLPINOTIFY          "Abundant Logic Agent"
     IDS_STATIC_INFO         "Informações"
     IDS_STATIC_AGENTVER     "Versão do agente:"
     IDS_STATIC_SERVICESTATUS "Status do serviço:"
     IDS_STATIC_STARTTYPE    "Tipo de inicialização:"
-    IDS_ERR_AGENTSETTINGS   "Erro ao carregar as configurações do GLPI Agent!\nO agente deverá ser reinstalado."
+    IDS_ERR_AGENTSETTINGS   "Erro ao carregar as configurações do Abundant Logic Agent!\nO agente deverá ser reinstalado."
 END
 
 STRINGTABLE
@@ -1150,7 +1150,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_ERR_HTTPDPORT       "Erro ao obter a porta HTTP do GLPI Agent!\nO agente deverá ser reinstalado."
+    IDS_ERR_HTTPDPORT       "Erro ao obter a porta HTTP do Abundant Logic Agent!\nO agente deverá ser reinstalado."
     IDS_SVC_STOPPED         "Parado"
     IDS_SVC_RUNNING         "Em execução"
     IDS_SVC_PAUSED          "Em pausa"
@@ -1160,13 +1160,13 @@ BEGIN
     IDS_SVC_STOPPENDING     "Parando..."
     IDS_ERR_SERVICE         "Falha ao consultar o serviço!"
     IDS_OK                  "OK"
-    IDS_ERROR               "GLPI Agent Monitor - Erro"
+    IDS_ERROR               "Abundant Logic Agent Monitor - Erro"
     IDS_ERR_FORCEINV_NORESPONSE 
                             "Erro ao forçar o inventário:\nO agente não respondeu à requisição."
     IDS_ERR_FORCEINV_NOTALLOWED 
                             "Erro ao forçar o inventário:\nOperação não permitida."
-    IDS_MSG_FORCEINV_OK     "Pedido de inventário enviado com sucesso ao GLPI Agent."
-    IDS_ERR_AGENTERR        "O agente está com um ou mais erros!\nVerifique na janela do GLPI Agent Monitor."
+    IDS_MSG_FORCEINV_OK     "Pedido de inventário enviado com sucesso ao Abundant Logic Agent."
+    IDS_ERR_AGENTERR        "O agente está com um ou mais erros!\nVerifique na janela do Abundant Logic Agent Monitor."
     IDS_RMENU_OPEN          "Abrir"
 END
 
@@ -1176,9 +1176,9 @@ BEGIN
     IDS_RMENU_EXIT          "Sair"
     IDS_FILE                "Arquivo"
     IDS_DIR                 "Diretório"
-    IDS_ERR_MAINWINDOW      "Erro ao criar a janela do GLPI Agent Monitor!"
+    IDS_ERR_MAINWINDOW      "Erro ao criar a janela do Abundant Logic Agent Monitor!"
     IDS_RMENU_NEWTICKET     "Abrir chamado..."
-    IDS_ERR_SERVER          "Erro ao obter a URL do servidor GLPI!\nO agente deverá ser reinstalado."
+    IDS_ERR_SERVER          "Erro ao obter a URL do servidor Abundant Logic!\nO agente deverá ser reinstalado."
     IDS_NOTIF_NEWTICKET_TITLE "Uma imagem de sua tela foi capturada"
     IDS_NOTIF_NEWTICKET     "Pressione CTRL+V no campo ""Descrição"" para anexá-la ao novo chamado."
     IDS_NEWTICKET           "Abrir chamado..."
@@ -1193,11 +1193,11 @@ END
 STRINGTABLE
 BEGIN
     IDS_ERR_SCHANDLE        "Erro ao se conectar ao Controlador de Serviços do Windows!"
-    IDS_ERR_SVCHANDLE       "Erro ao abrir o serviço do GLPI Agent!"
-    IDS_ERR_SVCOPERATION    "Erro ao tentar controlar o serviço do GLPI Agent!"
-    IDS_SETTINGS            "Configurações do GLPI Agent Monitor"
+    IDS_ERR_SVCHANDLE       "Erro ao abrir o serviço do Abundant Logic Agent!"
+    IDS_ERR_SVCOPERATION    "Erro ao tentar controlar o serviço do Abundant Logic Agent!"
+    IDS_SETTINGS            "Configurações do Abundant Logic Agent Monitor"
     IDS_SETTINGS_NEWTICKET_URL "URL da página de abertura de chamados"
-    IDS_ERR_SAVE_SETTINGS   "Erro ao tentar salvar as configurações do GLPI Agent Monitor!"
+    IDS_ERR_SAVE_SETTINGS   "Erro ao tentar salvar as configurações do Abundant Logic Agent Monitor!"
     IDS_CANCEL              "Cancelar"
     IDS_SAVE                "Salvar"
     IDS_BTN_SETTINGS        " Configurações"
@@ -1217,7 +1217,7 @@ END
 //
 // Generated from the TEXTINCLUDE 3 resource.
 //
-#include "GLPI-AgentMonitor.rc2"
+#include "Abundant Logic-AgentMonitor.rc2"
 
 /////////////////////////////////////////////////////////////////////////////
 #endif    // not APSTUDIO_INVOKED

@@ -1,0 +1,62 @@
+name: Abundant Logic Agent Monitor
+
+# Builds AbundantLogic-AgentMonitor-x64.exe (rebranded GLPI-AgentMonitor).
+#  - push to a branch       -> build, exe attached to the run as an artifact
+#  - push a tag 1.5.1-alN   -> build + GitHub Release (consumed by NobleDruid/glpi-agent, GAMONITOR_VERSION)
+# Derived from upstream glpi-agentmonitor-ci.yml without code signing / VirusTotal (need upstream secrets).
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  windows-compile:
+    runs-on: windows-latest
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@v7
+    - uses: ilammy/msvc-dev-cmd@v1.13.0
+      with:
+        arch: x64
+    - name: Set version (tag builds)
+      run: |
+        shopt -s extglob
+        if [ -z "${GITHUB_REF##refs/tags/*}" ]; then
+          TAG=${GITHUB_REF#refs/tags/}
+          if [ -z "${TAG##+([[:digit:]]).+([[:digit:]]).+([[:digit:]])?(-*)}" ]; then
+            FULLVERSION=${TAG%%-*}
+            BUILD_VERSION=${FULLVERSION##*.}
+            VERSION=${FULLVERSION%.*}
+            {
+              echo "#define VI_FILENAME         \"AbundantLogic-AgentMonitor-x64.exe\""
+              echo "#define VI_VERSIONDEF       ${VERSION%.*},${VERSION#*.},$BUILD_VERSION,0"
+              echo "#define VI_VERSIONSTRING    \"${VERSION%.*}.${VERSION#*.}.$BUILD_VERSION.0\""
+              echo "#define VI_PRODUCTNAME      \"Abundant Logic Agent Monitor\""
+            } > version.h
+          fi
+        fi
+        cat version.h
+      shell: bash
+    - name: Compile and link
+      run: msbuild GLPI-AgentMonitor.vcxproj -p:Configuration=Release -p:Platform=x64 -p:OutDir=Release\ -p:IntermediateOutputPath=Release\ -v:minimal -fl -flp:logfile=Release\msbuild.log
+    - name: Rename binary
+      run: mv -f "Release\\GLPI-AgentMonitor.exe" "Release\\AbundantLogic-AgentMonitor-x64.exe"
+      shell: bash
+    - name: Upload exe
+      if: success() || failure()
+      uses: actions/upload-artifact@v7
+      with:
+        name: AbundantLogic-AgentMonitor-x64
+        path: |
+          Release\*.exe
+          Release\msbuild.log
+    - name: Publish GitHub Release (tag builds only)
+      if: startsWith(github.ref, 'refs/tags/')
+      uses: softprops/action-gh-release@v3
+      with:
+        name: Abundant Logic Agent Monitor ${{ github.ref_name }}
+        body: |
+          Abundant Logic build of GLPI Agent Monitor (GPL-2.0), for the Abundant Logic Agent. Source: this repository at tag ${{ github.ref_name }}. Unsigned.
+        fail_on_unmatched_files: true
+        files: Release/AbundantLogic-AgentMonitor-x64.exe

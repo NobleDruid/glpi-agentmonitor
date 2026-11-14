@@ -45,8 +45,9 @@
 
 //-[DEFINES]-------------------------------------------------------------------
 
-#define SERVICE_NAME L"GLPI-Agent"
-#define USERAGENT_NAME L"GLPI-AgentMonitor"
+// Abundant Logic: must match the agent PROVIDER ("<PROVIDER>-Agent"): service name (case-insensitive) and HKLM\SOFTWARE\<PROVIDER>-Agent
+#define SERVICE_NAME L"AbundantLogic-Agent"
+#define USERAGENT_NAME L"AbundantLogic-AgentMonitor"
 
 
 //-[INCLUDES]------------------------------------------------------------------
@@ -534,10 +535,10 @@ VOID CALLBACK UpdateStatus(HWND hWnd, UINT message, UINT idTimer, DWORD dwTime)
         DWORD dwValueLen = sizeof(dwValue);
 
         // We can find the agent version under the Installer subkey, value "Version"
-        lRes = RegOpenKeyEx(HKEY_LOCAL_MACHINE, L"SOFTWARE\\GLPI-Agent\\Installer", 0, KEY_READ | KEY_WOW64_64KEY, &hk);
+        lRes = RegOpenKeyEx(HKEY_LOCAL_MACHINE, L"SOFTWARE\\" SERVICE_NAME L"\\Installer", 0, KEY_READ | KEY_WOW64_64KEY, &hk);
         if (lRes != ERROR_SUCCESS)
         {
-            lRes = RegOpenKeyEx(HKEY_LOCAL_MACHINE, L"SOFTWARE\\GLPI-Agent\\Installer", 0, KEY_READ | KEY_WOW64_64KEY, &hk);
+            lRes = RegOpenKeyEx(HKEY_LOCAL_MACHINE, L"SOFTWARE\\" SERVICE_NAME L"\\Installer", 0, KEY_READ | KEY_WOW64_64KEY, &hk);
             if (lRes != ERROR_SUCCESS) {
                 LoadString(hInst, IDS_ERR_AGENTNOTFOUND, szBuffer, dwBufferLen);
                 SetDlgItemText(hWnd, IDC_AGENTVER, szBuffer);
@@ -552,7 +553,7 @@ VOID CALLBACK UpdateStatus(HWND hWnd, UINT message, UINT idTimer, DWORD dwTime)
             if (lRes != ERROR_SUCCESS)
                 LoadString(hInst, IDS_ERR_AGENTVERNOTFOUND, szBuffer, dwBufferLen);
             else
-                wsprintf(szBuffer, L"GLPI Agent %s", szValue);
+                wsprintf(szBuffer, L"Abundant Logic Agent %s", szValue);
             SetDlgItemText(hWnd, IDC_AGENTVER, szBuffer);
             bAgentInstalled = true;
         }
@@ -744,7 +745,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance
     }
 
     // Create app mutex to keep only one instance running
-    hMutex = CreateMutex(NULL, TRUE, L"GLPI-AgentMonitor");
+    hMutex = CreateMutex(NULL, TRUE, L"AbundantLogic-AgentMonitor");
     if (GetLastError() == ERROR_ALREADY_EXISTS)
     {
         // Show running agent window

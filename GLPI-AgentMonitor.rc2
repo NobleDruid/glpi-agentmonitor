@@ -32,7 +32,7 @@ BEGIN
     BEGIN
         BLOCK "000004b0"
         BEGIN
-            VALUE "FileDescription", "GLPI Agent Monitor"
+            VALUE "FileDescription", "Abundant Logic Agent Monitor"
 #ifdef VI_VERSIONSTRING
             VALUE "FileVersion", VI_VERSIONSTRING
 #else
