@@ -1018,7 +1018,7 @@ END
 
 3 TEXTINCLUDE 
 BEGIN
-    "#include ""Abundant Logic-AgentMonitor.rc2""\r\n"
+    "#include ""GLPI-AgentMonitor.rc2""\r\n"
     "\0"
 END
 
@@ -1217,7 +1217,7 @@ END
 //
 // Generated from the TEXTINCLUDE 3 resource.
 //
-#include "Abundant Logic-AgentMonitor.rc2"
+#include "GLPI-AgentMonitor.rc2"
 
 /////////////////////////////////////////////////////////////////////////////
 #endif    // not APSTUDIO_INVOKED
